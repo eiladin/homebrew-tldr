@@ -2,14 +2,14 @@
 class Tldr < Formula
   desc "Simplified and community-driven man pages"
   homepage ""
-  version "1.2.4"
+  version "1.2.5"
 
   if OS.mac?
-    url "https://github.com/eiladin/tldr/releases/download/v1.2.4/tldr_1.2.4_macos_x64.tar.gz"
-    sha256 "798c84bd4090ffe9266dcf00c6e2cb7e68fc0c59e669a1192d8bc6e26fbedfd5"
+    url "https://github.com/eiladin/tldr/releases/download/v1.2.5/tldr_1.2.5_macos_x64.tar.gz"
+    sha256 "e56767546a200885d30e7aaa8ecb5fec6feeee5b26999f7fe104ea492a587dee"
   elsif OS.linux?
-    url "https://github.com/eiladin/tldr/releases/download/v1.2.4/tldr_1.2.4_linux_x64.tar.gz"
-    sha256 "0e417deea4dcc37dd9afea2f4c61ab1c5dc9fe4b49b6b68b482ad2cf46536e9e"
+    url "https://github.com/eiladin/tldr/releases/download/v1.2.5/tldr_1.2.5_linux_x64.tar.gz"
+    sha256 "d39ff87ac122aed4f005b825b22c0a805694d589a6ff31cf89e0719c41ca5fb4"
   end
 
   def install
