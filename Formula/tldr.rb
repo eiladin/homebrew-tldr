@@ -2,16 +2,16 @@
 class Tldr < Formula
   desc "Simplified and community-driven man pages"
   homepage "https://github.com/eiladin/tldr"
-  version "1.4.6"
+  version "1.4.7"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/eiladin/tldr/releases/download/v1.4.6/tldr_1.4.6_macos_x64.tar.gz"
-    sha256 "50775fa75c6bc85a75e8585ccd9ca783928c957181b661c8f3050e33a6c2850e"
+    url "https://github.com/eiladin/tldr/releases/download/v1.4.7/tldr_1.4.7_macos_x64.tar.gz"
+    sha256 "c11a66569b9307a01a939136bd4aff3ca5c9c04f21f8cbb7f0762b3ae2d50e89"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/eiladin/tldr/releases/download/v1.4.6/tldr_1.4.6_linux_x64.tar.gz"
-      sha256 "2f5088a361ac463f160e6f6df2db269811ad60530d60e272ab2e8ad6450d1ee1"
+      url "https://github.com/eiladin/tldr/releases/download/v1.4.7/tldr_1.4.7_linux_x64.tar.gz"
+      sha256 "912d29d829bdf8e0f027023e584d4af4dda167e9105065ea9c349f5dcc2970cb"
     end
   end
 
